@@ -1,0 +1,9 @@
+.carrossel{
+margin: 20px auto;
+max-width: 1250px;
+height: 250px;
+}
+.carrossel img{
+    width: 100%;
+    height: 250px;
+    }

@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+  header input{
+    width: 50%;
+    flex-grow: 1;
+    padding: 5px 30px;
+    border: none;
+    height: 40px;
+    outline: none;
+  }
+  .pesquisa{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: white;
+  }
+   #card-conteudo{
+    align-items: center;
+    display: flex;
+  }
+  #card-conteudo p{
+    margin-left: 10px;
+  }
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px; 
+    }
+    a:hover {
+      color: rgb(43, 11, 11);
+      text-decoration: none;
+      transition: transform 0.2s ease-in-out;
+    }
+    
+  #card-icone{
+  margin-left: 20px;
+  }
